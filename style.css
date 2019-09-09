@@ -1,0 +1,40 @@
+ @font-face {
+    font-family: myFirstFont;
+    src: url('hcdd.ttf') format('truetype');
+}
+
+	.heart {
+	 fill: red;
+	 position: relative;
+	 top: 7px;
+	 padding: 5px;
+	 width: 30px;
+	 animation: pulse 1s ease infinite;
+	}
+
+input[disabled], input:disabled, textarea[disabled], textarea[disabled="disabled"], textarea:disabled {
+    background:#FFF;
+}
+
+body{
+  background: transparent !important;
+  /* helpful for testing in the browser*/
+  /*background: rgba(0,0,0,0.6) !important;*/ 
+}
+span{
+  color: rgb(255, 124, 173) !important;
+}
+h1{
+  margin-top: 1rem !important;
+  margin-bottom: 0 !important;
+  font-size: 1.8rem;
+  font-family: 'hcdd', myFirstFont;
+  color: white !important;
+}
+h2{
+  margin-top: 1rem !important;
+  margin-bottom: 0 !important;
+  font-size: 1.2rem;
+  font-family: 'hcdd', myFirstFont;
+  color: white !important;
+}
